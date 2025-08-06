@@ -1,0 +1,8 @@
+arr = [10, 20, 30, 40, 50]
+print(arr[0])     
+arr.append(60)
+arr.insert(2, 25)
+arr.remove(30)
+del arr[1]
+for num in arr:
+    print(num)
